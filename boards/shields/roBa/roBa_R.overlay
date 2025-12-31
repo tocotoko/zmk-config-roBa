@@ -1,5 +1,6 @@
 #include "roBa.dtsi"
 //追加
+#include <zmk/input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
 &default_transform {
