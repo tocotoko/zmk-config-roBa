@@ -68,6 +68,11 @@
             bindings = <&kp LC(LG(RIGHT))>;
             key-positions = <24 25>;
         };
+
+        close_tab {
+            bindings = <&kp LC(W)>;
+            key-positions = <18 17>;
+        };
     };
 
     macros {
