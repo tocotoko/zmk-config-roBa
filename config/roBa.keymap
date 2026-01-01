@@ -69,9 +69,24 @@
             key-positions = <24 25>;
         };
 
+        reopen_tab {
+            bindings = <&kp LS(LC(T))>;
+            key-positions = <6 7>;
+        };
+
         close_tab {
             bindings = <&kp LC(W)>;
-            key-positions = <18 17>;
+            key-positions = <8 7>;
+        };
+
+        win_left {
+            bindings = <&kp LG(LEFT_ARROW)>;
+            key-positions = <1 2>;
+        };
+
+        win_right {
+            bindings = <&kp LG(RIGHT_ARROW)>;
+            key-positions = <2 3>;
         };
     };
 
