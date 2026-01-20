@@ -10,6 +10,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -135,10 +136,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LC(W)  &kp UP_ARROW  &kp LC(R)  &trans                         &kp LC(Y)       &kp AMPERSAND  &kp LG(LS(S))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LC(A)   &kp LEFT   &kp DOWN      &kp RIGHT  &trans     &trans      &trans  &trans          &kp LCTRL      &kp LEFT_WIN   &kp LEFT_ALT          &kp PERCENT
-&kp LC(Z)   &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp LC(B)  &trans      &trans  &trans          &trans         &kp HOME       &kp END               &trans
-&trans      &trans     &trans        &trans     &trans     &trans      &trans  &kp LEFT_SHIFT                                                      &trans
+&kp ESCAPE  &kp LC(W)  &kp UP_ARROW  &kp LC(R)  &trans                         &kp LC(Y)       &kp AMPERSAND  &kp LG(LS(S))  &trans        &trans
+&kp LC(A)   &kp LEFT   &kp DOWN      &kp RIGHT  &trans     &trans      &trans  &kp PAGE_UP     &kp LCTRL      &kp LEFT_WIN   &kp LEFT_ALT  &trans
+&kp LC(Z)   &kp LC(X)  &kp LC(C)     &kp LC(V)  &kp LC(B)  &trans      &trans  &kp PAGE_DOWN   &trans         &kp HOME       &kp END       &trans
+&trans      &trans     &trans        &trans     &trans     &trans      &trans  &kp LEFT_SHIFT                                              &trans
             >;
         };
 
